@@ -16,7 +16,7 @@ export const metadata = {
     default: 'VeryVivid AI Chatbot',
     template: `%s - VeryVivid AI Chatbot`
   },
-  description: 'An AI-powered chatbot experiment built with Next.js and Vercel.',
+  description: 'A Veryvivid AI-powered chatbot experiment built with Next.js and Vercel.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
