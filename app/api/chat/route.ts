@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
   try {
     const { messages } = await req.json();
     const response = await openai.createChatCompletion({
-      model: 'gpt-4o-Mini',  // Replace with your model
+      model: 'gpt-4',  // Replace with your model
       messages,
     });
 
